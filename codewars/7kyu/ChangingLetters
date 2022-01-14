@@ -1,3 +1,3 @@
 function swap (string) {
-  return string.replace(new RegExp('e','g'),'E').replace(new RegExp('o','g'),'O').replace(new RegExp('a','g'),'A').replace(new RegExp('i','g'),'I').replace(new RegExp('u','g'),'U');
+  return string.replace(/[aeiou]/, val => val.toUpperCase());
 }
