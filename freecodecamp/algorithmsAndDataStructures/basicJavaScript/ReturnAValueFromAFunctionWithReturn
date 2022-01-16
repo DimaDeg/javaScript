@@ -1,0 +1,5 @@
+function timesFive(p){
+  return p*5;
+}
+
+var p1 = timesFive(2);

@@ -1,0 +1,17 @@
+function well(x){
+  var s = 0;
+  for (var i = 0; i< x.length; i++){
+    if (x[i] === 'good'){
+      s++;
+    }
+  }
+  if (s===0){
+    return 'Fail!';
+  }
+  else if (s<=2){
+    return 'Publish!';
+  }
+  else if (s>2){
+    return 'I smell a series!';
+  }
+};
