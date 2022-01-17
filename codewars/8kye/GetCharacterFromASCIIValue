@@ -1,0 +1,4 @@
+function getChar(c){
+  var ch = String.fromCharCode(c);
+  return ch;
+}

@@ -1,0 +1,9 @@
+function uniTotal (string) {
+    let total = 0;
+    let ns = 0;
+    for (let i = 0; i< string.length; i++){
+        ns = string.charCodeAt(i);
+        total += ns;
+    }
+    return total;
+};
