@@ -1,0 +1,7 @@
+function sixToast(num) {
+  var toasts = 6;
+  if (toasts != num){
+    return Math.abs(num-toasts);
+  }
+  return 0;
+}

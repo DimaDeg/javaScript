@@ -1,0 +1,5 @@
+function addBinary(a,b) {
+  var с = 0;
+  c = a + b;
+  return c.toString(2);
+}
