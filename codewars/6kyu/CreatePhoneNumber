@@ -1,0 +1,9 @@
+function createPhoneNumber(numbers){
+  var phone = "(xxx) xxx-xxxx";
+  
+  for(var i = 0; i < numbers.length; i++)  {
+    phone = phone.replace('x', numbers[i]);
+  }
+  
+  return phone;
+}
