@@ -1,0 +1,19 @@
+function cubeSum(n, m){
+  let sum = 0;
+  if (n===m){
+    return 0;
+  }
+  if (n<m){
+    for (let i = n+1; i<=m; i++){
+      sum += i*i*i; 
+    }
+    return sum;
+  }
+    if (n>m){
+    for (let i = m+1; i<=n; i++){
+      sum += i*i*i; 
+    }
+    return sum;
+  }
+  
+}

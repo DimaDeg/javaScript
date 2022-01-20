@@ -1,0 +1,9 @@
+function filter_list(l) {
+  let num = [];
+  for (let i = 0; i < l.length; i++){
+    if(Number.isInteger(l[i])){
+      num.push(l[i]);
+    }
+  }
+  return num;
+}
